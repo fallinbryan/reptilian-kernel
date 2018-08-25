@@ -178,5 +178,6 @@ void main(void)
 	set_video();
 
 	/* Do the last things and invoke protected mode */
+	puts("Test message into da the boot")
 	go_to_protected_mode();
 }
